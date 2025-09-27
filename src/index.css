@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@layer {
+  .container {
+    @apply mx-auto px-[10px];
+  }
+  .btn {
+    @apply cursor-pointer w-[170px] rounded-[30px] text-white h-[45px]  bg-gradient-to-tr from-[#2DBDBD] to-[#31CD78] hover:opacity-[0.7] transition-all duration-200;
+  }
+}
+p {
+  color: #a0a1a6;
+
+ 
+}
